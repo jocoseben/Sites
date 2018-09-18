@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+
+	background-image: url("../img/background.gif");
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.container {
+    position: relative;
+    top: 180px;
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 0px dotted #;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	font-family: Verdana, Arial, Helvetica, sans-serif; /* this is used in case the person logging on to th site themselves dont gotta the font, wordpress as a plugin load text option */
+	font-size: 20px;
+	color: #E80C79;
+	text-align: center;
+	
+}
+
+.header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	border: thick;
+	border: 10 px;
+	border color:#;
+	background-color: #;
+}
+
+
+a:link {
+    color: red;
+}
+a:visited {
+	color: #666666;
+}
